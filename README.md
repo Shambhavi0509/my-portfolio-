@@ -1,73 +1,55 @@
-# Welcome to your Lovable project
+💻 Project Overview
 
-## Project info
+Personal portfolio website showcasing projects, skills, achievements, and experiences in software development.
 
-**URL**: https://my-portfolio-kksn.vercel.app/
+Designed to present work in a clean, interactive, and professional format.
 
-## How can I edit this code?
+⚡ Getting Started
 
-There are several ways of editing your application.
+Clone the Repository
 
-**Use Lovable**
+git clone https://github.com/Shambhavi0509/portfolio.git
+cd portfolio
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/55eeb270-f962-43c6-9c84-db9506f00a60) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Install Dependencies
 
-**Use your preferred IDE**
+npm install
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Run the Project Locally
 
-Follow these steps:
+npm start
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+App will run at: http://localhost:3000
 
-# Step 3: Install the necessary dependencies.
-npm i
+🛠️ Technical Decisions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Language: TypeScript (95.4%) → for type safety and maintainability.
 
-**Edit a file directly in GitHub**
+Styling: CSS (3.6%) → for custom layouts and section styling.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+⚔️ Challenges & Solutions
 
-**Use GitHub Codespaces**
+Embedding Resume
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Issue: Added in wrong section (Contact).
 
-## What technologies are used for this project?
+Solution: Moved to a dedicated Resume section with a Google Drive link.
 
-This project is built with:
+LinkedIn Profile Redirect
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Issue: “Share” link redirected to LinkedIn login.
 
-## How can I deploy this project?
+Solution: Used public profile link to open directly.
 
-Simply open [Lovable](https://lovable.dev/projects/55eeb270-f962-43c6-9c84-db9506f00a60) and click on Share -> Publish.
+🧩 Problem-Solving Approach
 
-## Can I connect a custom domain to my Lovable project?
+Divided portfolio into clear sections: About, Projects, Skills, Achievements, Resume, Contact, Beyond Tech.
 
-Yes, you can!
+Ensured all links (GitHub, LinkedIn, Resume, Email) are functional and accessible.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Focused on minimal, professional UI with responsiveness.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Solved issues step by step (resume embedding → LinkedIn link fix → balancing sections).
