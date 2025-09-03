@@ -1,38 +1,30 @@
-WEB IS DEPLOYED AT:- https://my-portfolio-kksn.vercel.app/
+WEB IS DEPLOYED AT:
 
-💻 Project Overview
+https://my-portfolio-kksn.vercel.app/
+
+📘 Project Overview
 
 Personal portfolio website showcasing projects, skills, achievements, and experiences in software development.
-
 Designed to present work in a clean, interactive, and professional format.
 
 ⚡ Getting Started
-
 Clone the Repository
-
-git clone https://github.com/Shambhavi0509/portfolio.git
+git clone https://github.com/Shambhavi0509/portfolio.git  
 cd portfolio
 
-
 Install Dependencies
-
 npm install
 
-
 Run the Project Locally
-
 npm start
 
-
-
-🛠️ Technical Decisions
+🛠 Technical Decisions
 
 Language: TypeScript (95.4%) → for type safety and maintainability.
 
 Styling: CSS (3.6%) → for custom layouts and section styling.
 
-⚔️ Challenges & Solutions
-
+⚔ Challenges & Solutions
 Embedding Resume
 
 Issue: Added in wrong section (Contact).
@@ -45,7 +37,7 @@ Issue: “Share” link redirected to LinkedIn login.
 
 Solution: Used public profile link to open directly.
 
-🧩 Problem-Solving Approach
+🌱 Problem-Solving Approach
 
 Divided portfolio into clear sections: About, Projects, Skills, Achievements, Resume, Contact, Beyond Tech.
 
