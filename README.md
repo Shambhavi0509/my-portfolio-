@@ -1,3 +1,5 @@
+WEB IS DEPLOYED AT:- https://my-portfolio-kksn.vercel.app/
+
 💻 Project Overview
 
 Personal portfolio website showcasing projects, skills, achievements, and experiences in software development.
@@ -22,7 +24,6 @@ Run the Project Locally
 npm start
 
 
-App will run at: http://localhost:3000
 
 🛠️ Technical Decisions
 
