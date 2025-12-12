@@ -252,17 +252,16 @@ const Portfolio = () => {
               <div className="w-16 h-px bg-gradient-to-r from-transparent via-neon-blue to-transparent mx-auto" />
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-                         {[
-                           { name: 'Git', icon: '🐙' },
-                           { name: 'VS Code', icon: '💻' },
-                           { name: 'AutoCAD', icon: '📐' },
-                           { name: 'Canva', icon: '🎨' }
-                         ].map((tool) => (
-                <Card key={tool.name} className="glass-card interactive-glow p-6 text-center group">
-                  <div className="text-3xl mb-4 group-hover:scale-110 transition-transform">{tool.icon}</div>
-                  <h4 className="font-medium text-sm text-muted-foreground">{tool.name}</h4>
-                </Card>
-              ))}
+                        {[
+  { name: 'Git', icon: '🐙' },
+  { name: 'VS Code', icon: '💻' }
+].map((tool) => (
+  <Card key={tool.name} className="glass-card interactive-glow p-6 text-center group">
+    <div className="text-3xl mb-4 group-hover:scale-110 transition-transform">{tool.icon}</div>
+    <h4 className="font-medium text-sm text-muted-foreground">{tool.name}</h4>
+  </Card>
+))}
+
             </div>
           </div>
         </div>
