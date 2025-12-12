@@ -103,7 +103,7 @@ const Portfolio = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="neon-text text-2xl font-bold tracking-wider">
-              Tech by Shambhavi
+              Shambhavi Mishra
             </div>
             <div className="hidden md:flex space-x-8">
               {['home', 'skills', 'projects', 'contact'].map((section) => (
