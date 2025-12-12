@@ -195,16 +195,26 @@ const Portfolio = () => {
                       <div className="text-4xl mb-6">⚙️</div>
                       <h3 className="text-2xl font-semibold neon-text-accent mb-8">Technical Skills</h3>
                       <div className="grid grid-cols-2 gap-6">
-                        {[
-                          { name: 'C++', icon: '🖥️' },
-                          { name: 'Java', icon: '☕' },
-                          { name: 'Python', icon: '🐍' },
-                          { name: 'HTML', icon: '🌐' },
-                          { name: 'CSS', icon: '🎨' },
-                          { name: 'JavaScript', icon: '✨' },
-                          { name: 'Problem Solving', icon: '🧩' },
-                          { name: 'Debugging', icon: '🐞🔍' }
-                        ].map((skill) => (
+                       {[
+  { name: 'Java', icon: '☕' },
+  { name: 'Python', icon: '🐍' },
+  { name: 'C++', icon: '💻' },
+
+  { name: 'HTML', icon: '🌐' },
+  { name: 'CSS', icon: '🎨' },
+  { name: 'JavaScript', icon: '✨' },
+  { name: 'TypeScript', icon: '🔷' },
+
+  { name: 'React', icon: '⚛️' },
+  { name: 'Tailwind CSS', icon: '💠' },
+  { name: 'Node.js', icon: '🌿' },
+  { name: 'Express.js', icon: '🚀' },
+
+  { name: 'GitHub', icon: '🐙' },
+  { name: 'Problem-Solving', icon: '🧠' },
+  { name: 'Debugging', icon: '🐞' }
+].map((skill) => (
+
                           <div key={skill.name} className="flex items-center gap-3 p-3 rounded-lg glass-panel">
                             <span className="text-2xl">{skill.icon}</span>
                             <span className="text-muted-foreground">{skill.name}</span>
