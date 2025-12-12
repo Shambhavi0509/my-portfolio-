@@ -460,7 +460,7 @@ const Portfolio = () => {
               <div className="text-4xl mb-6">🏆</div>
               <h3 className="text-xl font-semibold neon-text-accent mb-4">Competition Success</h3>
               <p className="text-muted-foreground text-lg">
-                Secured 1st position in EGD
+               Gained hands-on experience by participating in multiple hackathons
               </p>
             </Card>
 
