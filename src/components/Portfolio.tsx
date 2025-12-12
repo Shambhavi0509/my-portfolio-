@@ -28,18 +28,26 @@ const Portfolio = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const skills = [
-    { name: 'Java', icon: '☕', isEmoji: true },
-    { name: 'Python', icon: '🐍', isEmoji: true },
-    { name: 'C++', icon: Code, isEmoji: false },
-    { name: 'HTML', icon: Code, isEmoji: false },
-    { name: 'CSS', icon: Code, isEmoji: false },
-    { name: 'JavaScript', icon: Code, isEmoji: false },
-    { name: 'React', icon: Code, isEmoji: false },
-    { name: 'GitHub', icon: Code, isEmoji: false },
-    { name: 'Problem-Solving', icon: Brain, isEmoji: false },
-    { name: 'Debugging', icon: Zap, isEmoji: false },
-  ];
+ const skills = [
+  { name: 'Java', icon: '☕', isEmoji: true },
+  { name: 'Python', icon: '🐍', isEmoji: true },
+  { name: 'C++', icon: '💻', isEmoji: true },
+
+  { name: 'HTML', icon: '🌐', isEmoji: true },
+  { name: 'CSS', icon: '🎨', isEmoji: true },
+  { name: 'JavaScript', icon: '✨', isEmoji: true },
+  { name: 'TypeScript', icon: '🔷', isEmoji: true },
+
+  { name: 'React', icon: '⚛️', isEmoji: true },
+  { name: 'Tailwind CSS', icon: '💠', isEmoji: true },
+  { name: 'Node.js', icon: '🌿', isEmoji: true },
+  { name: 'Express.js', icon: '🚀', isEmoji: true },
+
+  { name: 'GitHub', icon: '🐙', isEmoji: true },
+  { name: 'Problem-Solving', icon: '🧠', isEmoji: true },
+  { name: 'Debugging', icon: '🐞', isEmoji: true },
+];
+
 
   const projects = [
     {
